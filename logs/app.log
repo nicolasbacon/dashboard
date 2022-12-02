@@ -1,0 +1,78 @@
+02/12/2022 11:46:37,596 [WARN  ] ChartRender.generateChartAnomaliesByCriticality(ChartRender.java:129) - ICI
+02/12/2022 11:49:49,369 [ERROR ] ChartRender.generateChartAnomaliesByCriticality(ChartRender.java:130) - Unable to save the file for the path : /home/nbacon@oceanedm.local/workspace/dashboard/tmpMantis1/AnomaliesByCriticality.png. Caused by :
+/home/nbacon@oceanedm.local/workspace/dashboard/tmpMantis1/AnomaliesByCriticality.png (Aucun fichier ou dossier de ce type)
+02/12/2022 11:51:42,045 [ERROR ] ChartRender.generateChartAnomaliesByCriticality(ChartRender.java:130) - Unable to save the file for the path : /home/nbacon@oceanedm.local/workspace/dashboard/tmpMantis1/AnomaliesByCriticality.png. Caused by :
+/home/nbacon@oceanedm.local/workspace/dashboard/tmpMantis1/AnomaliesByCriticality.png (Aucun fichier ou dossier de ce type)
+02/12/2022 12:27:57,564 [ERROR ] SpringApplication.reportFailure(SpringApplication.java:824) - Application run failed
+java.lang.Error: Unresolved compilation problem: 
+	LOGGER cannot be resolved
+
+	at fr.oceaneconsulting.dashboard.connector.mantis.dal.MantisRequestDaoImpl.getRequestOfProject(MantisRequestDaoImpl.java:81) ~[classes/:?]
+	at fr.oceaneconsulting.dashboard.connector.mantis.MantisBDDConnector.getProjectWithRequests(MantisBDDConnector.java:57) ~[classes/:?]
+	at fr.oceaneconsulting.dashboard.service.ApplicationService.updateDatabaseProjectFromList(ApplicationService.java:71) ~[classes/:?]
+	at fr.oceaneconsulting.dashboard.service.ApplicationService.updateDatabase(ApplicationService.java:47) ~[classes/:?]
+	at fr.oceaneconsulting.dashboard.DashboardApplication.run(DashboardApplication.java:39) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at fr.oceaneconsulting.dashboard.DashboardApplication.main(DashboardApplication.java:30) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+02/12/2022 15:27:58,357 [WARN  ] DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer.logDuplicateJsonObjectsWarning(DuplicateJsonObjectContextCustomizerFactory.java:78) - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/nbacon@oceanedm.local/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/home/nbacon@oceanedm.local/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+02/12/2022 15:28:07,527 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:159) - The pathToXML is blank or doesn't exist
+02/12/2022 15:28:07,536 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file, is not available
+02/12/2022 15:28:07,536 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file.php, is not available
+02/12/2022 15:28:07,537 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file.abc, is not available
+02/12/2022 15:28:07,916 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:28:07,922 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:28:08,529 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:28:08,534 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:159) - The pathToXML is blank or doesn't exist
+02/12/2022 15:28:09,264 [WARN  ] ConnectorFactory.getConnectorInstance(ConnectorFactory.java:35) - The connectorName is null
+02/12/2022 15:28:09,270 [WARN  ] ConnectorFactory.getConnectorInstance(ConnectorFactory.java:44) - The connector : Unknowndoes not exist
+02/12/2022 15:34:58,377 [WARN  ] DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer.logDuplicateJsonObjectsWarning(DuplicateJsonObjectContextCustomizerFactory.java:78) - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/nbacon@oceanedm.local/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/home/nbacon@oceanedm.local/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+02/12/2022 15:35:07,255 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file, is not available
+02/12/2022 15:35:07,256 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file.php, is not available
+02/12/2022 15:35:07,256 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file.abc, is not available
+02/12/2022 15:35:07,659 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:35:07,666 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:35:08,264 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:35:08,991 [WARN  ] ConnectorFactory.getConnectorInstance(ConnectorFactory.java:35) - The connectorName is null
+02/12/2022 15:35:08,994 [WARN  ] ConnectorFactory.getConnectorInstance(ConnectorFactory.java:44) - The connector : Unknowndoes not exist
+02/12/2022 15:37:23,717 [WARN  ] DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer.logDuplicateJsonObjectsWarning(DuplicateJsonObjectContextCustomizerFactory.java:78) - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/nbacon@oceanedm.local/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/home/nbacon@oceanedm.local/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+02/12/2022 15:37:32,500 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file, is not available
+02/12/2022 15:37:32,500 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file.php, is not available
+02/12/2022 15:37:32,501 [WARN  ] AbstractReader.readProjects(AbstractReader.java:61) - The file extension : ./file.abc, is not available
+02/12/2022 15:37:32,895 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:37:32,903 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:37:33,556 [WARN  ] XMLReader.getDocumentFromPath(XMLReader.java:155) - The pathToXML is null
+02/12/2022 15:37:34,364 [WARN  ] ConnectorFactory.getConnectorInstance(ConnectorFactory.java:35) - The connectorName is null
+02/12/2022 15:37:34,366 [WARN  ] ConnectorFactory.getConnectorInstance(ConnectorFactory.java:44) - The connector : Unknowndoes not exist

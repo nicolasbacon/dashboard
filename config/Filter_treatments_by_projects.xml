@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <Mantis>
+        <A-traiter-OCDM>
+                NOUVEAU,
+                REOUVERT,
+                RETOUR_CLIENT_EFFECTUE,
+                ANALYSE_EN_COURS,
+                A_TRAITER,
+                RESOLUTION_EN_COURS,
+                A_RECETTER_USINE,
+                VALIDE_USINE
+        </A-traiter-OCDM>
+        <A-traiter-client>
+                EN_ATTENTE_RETOUR_CLIENT,
+                TRAITE,
+                A_DISPOSITION
+        </A-traiter-client>
+    </Mantis>
+    <Redmine>
+        <A-traiter-OCDM>
+                NOUVEAU,
+                EN_COURS,
+                COMMENTAIRE,
+                FERME,
+                REJETE,
+                COMPLETE,
+                INITIE,
+                VALIDE,
+                DEMANDE_DABANDON,
+                A_CHIFFRER,
+                DEVIS_A_EMETTRE,
+                A_REALISER,
+                A_CORRIGER,
+                PERSISTANT
+        </A-traiter-OCDM>
+        <A-traiter-client>
+                RESOLU,
+                LIVRE,
+                RECETTE_EFFECTUEE,
+                EN_ATTENTE_DE_COMMANDE,
+                A_DEFINIR,
+                A_HOMOLOGUER
+        </A-traiter-client>
+    </Redmine>
+    <specific-config>
+        <project id="Id d'origine du projet" origin="Le bug tracker d'origine du projet">
+            <A-traiter-OCDM>
+            </A-traiter-OCDM>
+            <A-traiter-client>
+            </A-traiter-client>
+        </project>
+    </specific-config>
+</config>
