@@ -70,6 +70,7 @@ public class ApplicationService {
 					lstProjectToUpdate.set(i, projectFromList);
 				} catch (FormatException e) {
 					LOGGER.error("Error while formatting data");
+					lstProjectToUpdate.remove(i);
 				} catch (NotFoundException e) {
 					LOGGER.error("Unable to retrieve data");
 					lstProjectToUpdate.remove(i);
